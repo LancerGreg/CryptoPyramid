@@ -11,15 +11,14 @@ Console program about encryption and decryption by pyramid
 # Settings
 # Encryption implementation
 
-Pyramid taken for bulo concept. Having received the data as a string of bits, the stench fills the pyramid in an offensive manner.
-           0123 4567 .... ....        
-        -> 1000 1011 0111 0001 ->
+Pyramid taken for bulo concept. Having received the data as a string of bits, the stench fills the pyramid in an offensive manner.                   
+        
 
                                   ^                       ^
                                  /0\                     /1\
                                 *---*                   *---*
-                               /1\2/3\                 /0\0/0\
-                              *---*---*       ->      *---*---*
+       0123 4567 .... ....     /1\2/3\                 /0\0/0\
+    -> 1000 1011 0111 0001 -> *---*---*       ->      *---*---*
                              /4\5/6\7/8\             /1\0/1\1/0\
                             *---*---*---*           *---*---*---*
                            /9\./.\./.\./.\         /1\1/1\0/0\0/1\
