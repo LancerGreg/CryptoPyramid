@@ -11,7 +11,7 @@ Console program about encryption and decryption by pyramid
 # Settings
 # Encryption implementation
 
-Pyramid taken for bulo concept. Having received the data as a string of bits, the stench fills the pyramid in an offensive manner.                   
+Pyramid taken for bulo concept. A string of bits it fills the pyramid after received the data.                   
         
 
                                   ^                       ^
@@ -24,8 +24,7 @@ Pyramid taken for bulo concept. Having received the data as a string of bits, th
                            /9\./.\./.\./.\         /1\1/1\0/0\0/1\
                           *---*---*---*---*       *---*---*---*---*
 
-On the initial version of the program, it is only possible to enter data of size X -> X = log(4,S); X Є N; S - size of data 
-In future versions, the addition of zeros for the required size will be implemented
+On the initial version of the program, it is only possible to enter data of size X -> X = log(4,S); X Є N; S - bits count
 
 The next step is the transformation of small pyramids into one big, for such rules
 
