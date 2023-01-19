@@ -17,11 +17,11 @@ Pyramid taken for bulo concept. A string of bits it fills the pyramid after rece
                                   ^                       ^
                                  /0\                     /1\
                                 *---*                   *---*
-       0123 4567 .... ....     /1\2/3\                 /0\0/0\
+       0123 4567 89ab cdfe     /1\2/3\                 /0\0/0\
     -> 1000 1011 0111 0001 -> *---*---*       ->      *---*---*
                              /4\5/6\7/8\             /1\0/1\1/0\
                             *---*---*---*           *---*---*---*
-                           /9\./.\./.\./.\         /1\1/1\0/0\0/1\
+                           /9\a/b\c/d\e/f\         /1\1/1\0/0\0/1\
                           *---*---*---*---*       *---*---*---*---*
 
 On the initial version of the program, it is only possible to enter data of size X -> X = log(4,S); X Є N; S - bits count
